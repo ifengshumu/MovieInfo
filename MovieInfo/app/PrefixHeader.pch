@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  MovieInfo
+//
+//  Created by zach on 2018/10/16.
+//  Copyright © 2018年 zach. All rights reserved.
+//
+
+
+// Screen Height
+#define SCREEN_HEIGHT UIScreen.mainScreen.bounds.size.height
+// Screen Width
+#define SCREEN_WIDTH UIScreen.mainScreen.bounds.size.width
+
+#import "UIColor+MethodExtend.h"
+#import "UIView+MethodExtend.h"
+#import "UIButton+MethodExtend.h"
+#import "AppConfig.h"
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+#import "SVPullToRefresh.h"
+#import "JSONModel.h"
+#import "UIImageView+WebCache.h"
+#import "SDCycleScrollView.h"

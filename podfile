@@ -1,0 +1,10 @@
+use_frameworks!
+platform :ios, '8.0'
+target 'MovieInfo' do
+    pod 'AFNetworking'
+    pod 'SVPullToRefresh'
+    pod 'JSONModel'
+    pod 'SDWebImage'
+    pod 'SDCycleScrollView'
+
+end
